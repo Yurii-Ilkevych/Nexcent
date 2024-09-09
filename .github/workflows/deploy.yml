@@ -16,6 +16,7 @@ jobs:
           npm install
           npm run build
 
+
       - name: Check dist folder
         run: ls dist
 
