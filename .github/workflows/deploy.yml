@@ -17,6 +17,10 @@ steps:
           npm install
           npm run build
 
+      - name: Check dist folder
+        run: ls dist
+
+
         - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
