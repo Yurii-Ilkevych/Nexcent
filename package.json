@@ -6,7 +6,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build"
+    "build": "parcel build --public-url ./"
   },
   "author": "Yurii Ilkevych (rufiktcl@gmail.com)",
   "license": "ISC",
